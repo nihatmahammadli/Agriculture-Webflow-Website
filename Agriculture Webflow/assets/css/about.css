@@ -323,6 +323,7 @@ main .sec-3 .all-sec-3-2 .container p {
   width: 70%;
 }
 main .sec-4 {
+  margin-bottom: 150px;
   margin-top: 130px;
 }
 main .sec-4 .text-4 {
@@ -470,4 +471,237 @@ main .sec-4 .cards .card-3 .card-texts img {
   width: 80px;
   margin-right: 10px;
   cursor: pointer;
+}
+main .sec-5 {
+  margin-bottom: 100px;
+}
+main .sec-5 .all-sec-5 {
+  background-color: #274C5B;
+  padding-bottom: 100px;
+}
+main .sec-5 .all-sec-5 .sec-5-texts {
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 20px;
+}
+main .sec-5 .all-sec-5 .sec-5-texts h3 {
+  color: #7EB693;
+  font-weight: 400;
+  font-size: 26px;
+  font-family: "Yellowtail";
+  margin-bottom: 5px;
+}
+main .sec-5 .all-sec-5 .sec-5-texts h2 {
+  color: #FFF;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 36px;
+}
+main .sec-5 .all-sec-5 .sec-5-images {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+main .sec-5 .all-sec-5 .sec-5-images .images h4 {
+  text-align: center;
+  color: #FFF;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin-top: 10px;
+}
+main .sec-5 .all-sec-5 .sec-5-images .images img {
+  width: 230px;
+  height: 230px;
+  border-radius: 30px;
+}
+main .sec-5 .all-sec-5 .sec-5-images .images .photo-1 {
+  background-color: #FFF;
+  padding: 4px;
+  margin-left: 40px;
+}
+main .sec-5 .all-sec-5 .sec-5-images .images .photo-4 {
+  padding: 20px;
+  background-color: #FFF;
+  margin-right: 40px;
+}
+main .sec-10 {
+  margin-bottom: 200px;
+}
+main .sec-10 .img-sec-10 {
+  text-align: center;
+}
+main .sec-10 .img-sec-10 img {
+  width: 1000px;
+  height: 220px;
+  border-radius: 20px;
+}
+main .sec-10 .sec-texts-10 {
+  display: flex;
+  justify-content: space-between;
+  width: 890px;
+  margin: auto;
+  margin-top: -157px;
+  align-items: center;
+}
+main .sec-10 .sec-texts-10 h2 {
+  color: #FFF;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 35px;
+  width: 260px;
+}
+main .sec-10 .sec-texts-10 .Subscribe form input {
+  padding: 20px 88px 20px 20px;
+  border-radius: 15px;
+  border: none;
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+  color: #ABABAB;
+  font-weight: 400;
+  font-size: 12px;
+}
+main .sec-10 .sec-texts-10 .Subscribe button {
+  background-color: #274C5B;
+  color: #FFF;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  border: none;
+  border-radius: 16px;
+  padding: 19px 50px;
+}
+
+footer {
+  margin-top: -40px;
+}
+footer .all-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 65%;
+  margin: auto;
+}
+footer .all-footer .div-1 {
+  text-align: right;
+  padding-right: 40px;
+}
+footer .all-footer .div-1 .text-1-1 {
+  color: #274C5B;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+footer .all-footer .div-1 .div-texts {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+footer .all-footer .div-1 .div-texts .h2-texts {
+  color: #525C60;
+  font-weight: 700;
+  font-family: "Open Sans";
+  font-size: 13px;
+  line-height: 165%;
+}
+footer .all-footer .div-1 .div-texts .p-texts {
+  color: #525C60;
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 165%;
+  width: 170px;
+}
+footer .div-2 {
+  width: 100%;
+  border-left: 1px solid #D4D4D4;
+  height: 240px;
+  border-right: 1px solid #D4D4D4;
+}
+footer .div-2 .div-all-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+footer .div-2 .div-all-2 .div-2-1 {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  gap: 6px;
+}
+footer .div-2 .div-all-2 .div-2-1 h2 {
+  color: #274C5B;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 29px;
+}
+footer .div-2 .div-all-2 .div-2-1 img {
+  width: 35px;
+}
+footer .div-2 .div-all-2 .div-2-2 p {
+  width: 86%;
+  color: #525C60;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 165.4%;
+  margin: auto;
+}
+footer .div-2 .div-all-2 .div-2-3 {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  gap: 12px;
+}
+footer .div-2 .div-all-2 .div-2-3 svg {
+  width: 45px;
+  cursor: pointer;
+}
+footer .div-3 {
+  padding-left: 40px;
+  text-align: left;
+}
+footer .div-3 .div-3-1 h2 {
+  width: 150px;
+  color: #274C5B;
+  color: #274C5B;
+  font-size: 22px;
+  font-family: "Roboto", sans-serif;
+}
+footer .div-3 .div-3-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 25px;
+}
+footer .div-3 .div-3-2 p {
+  width: 150px;
+  color: #525C60;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 13px;
+}
+footer .footer-2 .line-1 {
+  margin-top: 80px;
+  width: 100%;
+  height: 1px;
+  background-color: #D4D4D4;
+}
+footer .footer-2 p {
+  color: #525C60;
+  font-family: "Open Sans";
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 165.4%;
+  margin-bottom: 10px;
+}
+footer .footer-2 span {
+  color: #525C60;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 165.4%;
 }/*# sourceMappingURL=about.css.map */
