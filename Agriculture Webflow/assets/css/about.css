@@ -1,0 +1,473 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yellowtail&display=swap");
+header .all-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  align-items: center;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+header .logo-div {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+header .logo-div .logo-img {
+  width: 33px;
+  height: 51px;
+}
+header .logo-div h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #274C5B;
+  font-size: 28px;
+}
+header nav {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+header nav a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #274C5B;
+  font-size: 18px;
+}
+header nav svg {
+  cursor: pointer;
+  margin-top: 10px;
+}
+header .icons {
+  display: flex;
+  gap: 20px;
+}
+header .icon-1 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+header .icon-1 .input-1 {
+  padding: 8px;
+  border-radius: 20px;
+  background-color: #FAFAFA;
+  width: 220px;
+  margin-top: 5px;
+}
+header .icon-1 svg {
+  width: 44px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+header .icon-2 {
+  border: 1px solid #E0E0E0;
+  height: 48px;
+  width: 125px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 8px;
+  padding-bottom: 5px;
+}
+header svg {
+  width: 44px;
+  margin-top: 5px;
+}
+header p {
+  margin-top: 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+main .sec-1 .all-sec-1 {
+  position: relative;
+}
+main .sec-1 .all-sec-1 .img-1 {
+  width: 100%;
+}
+main .sec-1 .all-sec-1 .img-2 {
+  width: 200px;
+  height: 51px;
+  position: absolute;
+  left: 42%;
+  top: 42%;
+}
+main .sec-2 {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  gap: 30px;
+  align-items: center;
+  margin-top: 80px;
+}
+main .sec-2 .sec-2-img img {
+  width: 700px;
+}
+main .sec-2 .sec-2-texts {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: left;
+}
+main .sec-2 .sec-2-texts .sec-2-head .h2-1 {
+  color: #7EB693;
+  font-family: "Yellowtail";
+  font-weight: 400;
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+main .sec-2 .sec-2-texts .sec-2-head .h2-2 {
+  color: #274C5B;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  width: 350px;
+}
+main .sec-2 .sec-2-texts .sec-2-p {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .sec-2 .sec-2-texts .sec-2-p p {
+  color: #525C60;
+  font-family: "Open Sans";
+  font-weight: 400;
+  line-height: 165.4%;
+  font-size: 13px;
+  width: 480px;
+}
+main .sec-2 .sec-2-texts .sec-2-logos {
+  display: flex;
+  gap: 50px;
+  margin-top: 15px;
+}
+main .sec-2 .sec-2-texts .sec-2-logos .logo-1 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+main .sec-2 .sec-2-texts .sec-2-logos .logo-1 img {
+  width: 40px;
+  height: 40px;
+}
+main .sec-2 .sec-2-texts .sec-2-logos .logo-1 h2 {
+  color: #274C5B;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  width: 170px;
+}
+main .sec-2 .sec-2-texts .sec-2-logos .logo-2 {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+main .sec-2 .sec-2-texts .sec-2-logos .logo-2 img {
+  width: 40px;
+  height: 40px;
+}
+main .sec-2 .sec-2-texts .sec-2-logos .logo-2 h2 {
+  color: #274C5B;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  width: 160px;
+}
+main .sec-2 .sec-2-texts .sec-2-button {
+  margin-bottom: 100px;
+}
+main .sec-2 .sec-2-texts .sec-2-button button {
+  width: 160px;
+  margin-top: 20px;
+  padding: 20px 31px;
+  background-color: #274C5B;
+  color: #FFF;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  border: none;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+main .sec-2 .sec-2-texts .sec-2-button button img {
+  width: 15px;
+}
+main .sec-3 {
+  padding-top: 130px;
+  background-color: #FAFAFA;
+}
+main .sec-3 .all-sec-3 {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+main .sec-3 .all-sec-3 .sec-3-img img {
+  width: 500px;
+  border-radius: 20px;
+}
+main .sec-3 .all-sec-3 .sec-3-texts {
+  margin-top: -22px;
+}
+main .sec-3 .all-sec-3 .sec-3-texts .text-3-1 {
+  color: #7EB693;
+  font-family: "Yellowtail";
+  font-weight: 400;
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+main .sec-3 .all-sec-3 .sec-3-texts .text-3-2 {
+  color: #274C5B;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  width: 80%;
+  margin-bottom: 18px;
+}
+main .sec-3 .all-sec-3 .sec-3-texts .text-3-3 {
+  color: #525C60;
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 165.4%;
+  width: 88%;
+}
+main .sec-3 .all-sec-3 .sec-3-texts .sec-3-div {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main .sec-3 .all-sec-3 .sec-3-texts .sec-3-div .divs-1 {
+  align-items: center;
+  width: 52%;
+  display: flex;
+  gap: 6px;
+  background-color: #ECECEC;
+  border-radius: 49px;
+  padding: 20px 0px 20px 21px;
+}
+main .sec-3 .all-sec-3 .sec-3-texts .sec-3-div .divs-1 h2 {
+  color: #274C5B;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+main .sec-3 .all-sec-3 .sec-3-texts .sec-3-div p {
+  color: #525C60;
+  font-family: "Open Sans";
+  font-weight: 400;
+  line-height: 165.4%;
+  font-size: 13px;
+  margin-left: 9%;
+  width: 60%;
+}
+main .sec-3 .all-sec-3 .sec-3-texts .sec-3-div .divs-2 {
+  margin-top: -10px;
+  align-items: center;
+  width: 52%;
+  display: flex;
+  gap: 6px;
+  background-color: #ECECEC;
+  border-radius: 49px;
+  padding: 20px 0px 20px 21px;
+}
+main .sec-3 .all-sec-3 .sec-3-texts .sec-3-div .divs-2 h2 {
+  color: #274C5B;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+main .sec-3 .all-sec-3-2 {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  margin-top: 100px;
+  gap: 10px;
+  padding-bottom: 150px;
+}
+main .sec-3 .all-sec-3-2 .container {
+  padding-top: 30px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #FFF;
+  align-items: center;
+  border-radius: 30px;
+  text-align: center;
+  height: 240px;
+  width: 220px;
+}
+main .sec-3 .all-sec-3-2 .container img {
+  padding: 15px;
+  border-radius: 16px;
+  width: 70px;
+  background-color: #F9F8F8;
+}
+main .sec-3 .all-sec-3-2 .container h2 {
+  color: #274C5B;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+}
+main .sec-3 .all-sec-3-2 .container p {
+  color: #525C60;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 165.4%;
+  width: 70%;
+}
+main .sec-4 {
+  margin-top: 130px;
+}
+main .sec-4 .text-4 {
+  text-align: center;
+}
+main .sec-4 .text-4 h2 {
+  color: #7EB693;
+  font-family: "Yellowtail";
+  font-weight: 400;
+  font-size: 26px;
+}
+main .sec-4 .text-4 h3 {
+  color: #274C5B;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+}
+main .sec-4 .text-4 p {
+  color: #525C60;
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 165.4%;
+  width: 50%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+main .sec-4 .cards {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+main .sec-4 .cards .card-1 {
+  margin-left: 40px;
+  background-color: #F9F8F8;
+  height: 470px;
+  border-radius: 30px;
+}
+main .sec-4 .cards .card-1 img {
+  width: 350px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+main .sec-4 .cards .card-1 h2 {
+  color: #274C5B;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-left: 13px;
+}
+main .sec-4 .cards .card-1 .card-texts {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+main .sec-4 .cards .card-1 .card-texts h3 {
+  margin-left: 15px;
+  color: #7EB693;
+  font-family: "Yellowtail";
+  font-weight: 400;
+  font-size: 18px;
+}
+main .sec-4 .cards .card-1 .card-texts .svg-4 svg {
+  width: 50px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+main .sec-4 .cards .card-2 {
+  background-color: #FFF;
+  height: 470px;
+  fill: #FFF;
+  filter: drop-shadow(0px 29px 44px rgba(150, 150, 150, 0.25));
+  border-radius: 30px;
+}
+main .sec-4 .cards .card-2 img {
+  width: 350px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+main .sec-4 .cards .card-2 h2 {
+  color: #274C5B;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-left: 13px;
+}
+main .sec-4 .cards .card-2 .card-texts {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+main .sec-4 .cards .card-2 .card-texts h3 {
+  margin-left: 15px;
+  color: #7EB693;
+  font-family: "Yellowtail";
+  font-weight: 400;
+  font-size: 18px;
+}
+main .sec-4 .cards .card-2 .card-texts img {
+  border-radius: 0;
+  width: 80px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+main .sec-4 .cards .card-3 {
+  margin-right: 40px;
+  background-color: #F9F8F8;
+  height: 470px;
+  border-radius: 30px;
+}
+main .sec-4 .cards .card-3 img {
+  width: 350px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+main .sec-4 .cards .card-3 h2 {
+  color: #274C5B;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-left: 13px;
+}
+main .sec-4 .cards .card-3 .card-texts {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+main .sec-4 .cards .card-3 .card-texts h3 {
+  margin-left: 15px;
+  color: #7EB693;
+  font-family: "Yellowtail";
+  font-weight: 400;
+  font-size: 18px;
+}
+main .sec-4 .cards .card-3 .card-texts img {
+  border-radius: 0;
+  width: 80px;
+  margin-right: 10px;
+  cursor: pointer;
+}/*# sourceMappingURL=about.css.map */
