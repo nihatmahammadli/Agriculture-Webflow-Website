@@ -1,0 +1,137 @@
+@media only screen and (max-width: 768px) {
+  header nav {
+    display: none;
+  }
+  .all-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  .all-header .icon-bar i {
+    display: block !important;
+    font-size: 30px;
+    position: absolute;
+    top: 13px;
+    left: -75px;
+    cursor: pointer;
+  }
+  .all-header .icons .icon-1 input {
+    width: 178px;
+  }
+  .sec-1 .all-sec-1 .img-1 {
+    width: 100% !important;
+    height: 130px;
+  }
+  .sec-1 .all-sec-1 .img-2 {
+    position: absolute;
+    left: 111px !important;
+    top: 135px !important;
+  }
+  .sec-2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px !important;
+  }
+  .sec-2 .sec-2-img img {
+    width: 100% !important;
+  }
+  .sec-2 .sec-2-texts {
+    width: 412px !important;
+    margin: auto;
+  }
+  .sec-2 .sec-2-texts .sec-2-head {
+    margin: auto;
+    text-align: center;
+  }
+  .sec-2 .sec-2-texts .sec-2-p p {
+    margin: auto;
+    width: 310px !important;
+    text-align: center;
+  }
+  .sec-2 .sec-2-texts .sec-2-logos {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .sec-2 .sec-2-texts .sec-2-button {
+    margin: auto;
+  }
+  .sec-3 .all-sec-3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .sec-3 .all-sec-3 .sec-3-img img {
+    margin-top: 40px;
+    width: 100% !important;
+  }
+  .sec-3 .all-sec-3-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px !important;
+  }
+  .sec-4 {
+    align-items: center;
+  }
+  .sec-4 .cards {
+    margin: 0 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 20px;
+  }
+  .sec-5 {
+    align-items: center;
+  }
+  .sec-5 .sec-5-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .sec-5 .sec-5-images .photo-1 {
+    margin: 0 !important;
+  }
+  .sec-5 .sec-5-images .photo-4 {
+    margin: 0 !important;
+  }
+  .sec-10 {
+    height: 300px;
+    margin-top: 200px;
+    position: relative;
+  }
+  .sec-10 .img-sec-10 img {
+    width: 100% !important;
+    height: 160px !important;
+  }
+  .sec-10 .sec-texts-10 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 300px !important;
+  }
+  .sec-10 .sec-texts-10 h2 {
+    position: absolute;
+    left: 0;
+    margin-top: 20px;
+    color: #274C5B !important;
+  }
+  .sec-10 .sec-texts-10 form {
+    position: absolute;
+    left: 0;
+    top: 120px;
+    background-color: #274C5B;
+    padding: 20px;
+    width: 412px;
+  }
+  footer {
+    height: 1300px;
+    width: 100% !important;
+  }
+  footer .all-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+}/*# sourceMappingURL=about-responsive.css.map */
